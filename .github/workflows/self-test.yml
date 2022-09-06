@@ -17,9 +17,6 @@ jobs:
         uses: sscpac/statick-action@v0.0.2
         with:
           check: false
-          config: custom-config.yaml
-          profile: custom-profile.yaml
-          user_paths: statick-config
 
       - name: Statick Markdown
         uses: sscpac/statick-action@v0.0.2
